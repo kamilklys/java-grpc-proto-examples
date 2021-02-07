@@ -7,6 +7,7 @@ import java.io.IOException;
 
 public class GrpcServer {
 
+    //dodac logi binarnych wiadomosci
     public static void main(String[] args) {
         Server server = ServerBuilder.forPort(9090).addService(new HelloServiceImpl()).build();
 
